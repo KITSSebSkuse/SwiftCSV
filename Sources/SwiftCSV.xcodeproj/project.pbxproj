@@ -118,7 +118,7 @@
 		5FB74BAD1CCB929D009DDBF1 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB74BB61CCB929D009DDBF1 /* SwiftCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB74BC91CCB92BA009DDBF1 /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE06B67C1CB7267B009578CC /* empty_fields.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = empty_fields.csv; path = SwiftCSVTests/empty_fields.csv; sourceTree = SOURCE_ROOT; };
+		BE06B67C1CB7267B009578CC /* empty_fields.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = empty_fields.csv; path = ../Tests/SwiftCSVTests/empty_fields.csv; sourceTree = SOURCE_ROOT; };
 		BE06B67F1CB726B5009578CC /* URLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLTests.swift; path = ../SwiftCSVTests/URLTests.swift; sourceTree = "<group>"; };
 		BE06B6811CB7287F009578CC /* quotes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = quotes.csv; path = ../SwiftCSVTests/quotes.csv; sourceTree = "<group>"; };
 		BE6C86061CB5CE44009A351D /* SwiftCSVTests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SwiftCSVTests; path = ../SwiftCSVTests; sourceTree = "<group>"; };
@@ -236,7 +236,8 @@
 				BE06B67F1CB726B5009578CC /* URLTests.swift */,
 				E46085931CCB1F5C00385286 /* PerformanceTest.swift */,
 			);
-			path = SwiftCSVTests;
+			name = SwiftCSVTests;
+			path = ../Tests/SwiftCSVTests;
 			sourceTree = "<group>";
 		};
 		BE06B67E1CB72680009578CC /* Res */ = {
